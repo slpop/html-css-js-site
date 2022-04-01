@@ -93,12 +93,12 @@
 }
 
 .button:hover {
-    background: #4837ff;
+    background: #9D4543;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #e17a7f;
     transition: all 0.3s ease;
 }
 
@@ -246,6 +246,11 @@
         margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
+    }
+
+    #main__img {
+        width: 100%;
+        height: auto;
     }
 
  

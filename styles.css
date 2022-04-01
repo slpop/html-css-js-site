@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lobster Two', cursive;
 }
 
 .navbar {
@@ -117,8 +117,8 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        /*top: -1000px; make menu disappear in mobile view  
-        opacity: 0; */
+        top: -1000px;  
+        /*opacity: 0;*/
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
@@ -194,3 +194,55 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+    /* Hero Section CSS */
+    .main {
+        background-color: #141414;
+    }
+
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto;
+        height: 90vh;
+        background-color: #654236;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+        
+    }
+
+    .main__content h1 {
+        font-size: 4rem;
+        color: #e8dbc5;
+        /*background-color: #e17a7f;*/
+        /*background-image: linear-gradient(to top, #654236 0%, #e8dbc5 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;*/
+    }
+
+    .main__content h2 {
+        font-size: 4rem;
+        color: #e8dbc5;
+        /*background-color: #fff4e9;
+        background-image: linear-gradient(to top, #e17a7f 0%, #fff4e9 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;*/
+    }
+
+    .main__content p {
+        font-family: 'Fira Sans', sans-serif;
+        color: #e8dbc5;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }

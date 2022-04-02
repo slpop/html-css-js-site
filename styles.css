@@ -92,6 +92,9 @@
 }
 
 @media screen and (max-width: 960px) {
+    .navbar {
+        position: sticky;
+    }
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -112,10 +115,10 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: #e17a7f;
     }
     .navbar__menu.active {
-        background: #131313;
+        background: #e17a7f;
         top: 100%;
         transition: all 0.5s ease;
         z-index: 99;
@@ -183,6 +186,20 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .main {
+        display: flex;
+    }
+
+    #main__img {
+        display: none;
+    }
+
+    .main__img--container {
+        align-items: right;
+    }
+
+
 }
 
     /* Main Section CSS */

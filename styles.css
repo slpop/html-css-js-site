@@ -210,12 +210,6 @@
     .main__img--container {
         align-items: right;
     }
-
-    .footer {
-        height: 22px;
-    }
-
-
 }
 
     /* Main Section CSS */
@@ -224,7 +218,6 @@
         grid:
             "header header header" auto
             "body body body" 1fr
-            "footer footer footer" auto
             / auto 1fr auto;
         gap: 8px;
     }
@@ -232,11 +225,6 @@
     .header { 
         grid-area: header;
         height: 20px;
-    }
-
-    .footer { 
-        grid-area: footer; 
-        height: 22px;
     }
 
     .body__container {
@@ -251,6 +239,7 @@
         z-index: 1;
         width: 75%;
         max-width: 1300px;
+        box-shadow: rgba(69, 36, 33, 0.25) 0px 54px 55px, rgba(69, 36, 33, 0.12) 0px -12px 30px, rgba(69, 36, 33, 0.12) 0px 4px 6px, rgba(69, 36, 33, 0.17) 0px 12px 13px, rgba(69, 36, 33, 0.09) 0px -3px 5px;
     }
 
     .main__content h1 {
@@ -281,10 +270,22 @@
         background: #654236;
     }
 
+    .fa-brands {
+        font-size: 2rem;
+        color: #fff4e9;
+        padding: 5px;
+        background: #654236;
+    }
+
+    .fa-brands:hover {
+        background-color: #e17a7f;
+    }
+
     .main__bottom {
+        background: #654236;
         display: flex;
-        background: #e17a7f;
         width: 100%;
+        margin-top: 30px;
     }
 
     .main__img--container {

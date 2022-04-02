@@ -82,12 +82,12 @@
 }
 
 .button:hover {
-    background: #9D4543;
+    background: #3e000c;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #e17a7f;
+    color: #3e000c;
     transition: all 0.3s ease;
 }
 
@@ -197,6 +197,10 @@
 
     .main__img--container {
         align-items: right;
+    }
+
+    .footer {
+        height: 22px;
     }
 
 

@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lobster Two', cursive;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='68' height='68' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(132)'%3E%3Crect width='100%25' height='100%25' fill='rgba(232, 219, 197,1)'/%3E%3Cpath d='M0 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5zM0 69.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(62, 0, 12,1)'/%3E%3Cpath d='M20 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(225, 122, 127,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
 }
 
 .navbar {
@@ -18,6 +19,7 @@
 }
 
 .navbar__container {
+    background: #e17a7f;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -29,6 +31,7 @@
 }
 
 #navbar__logo {
+    background: #e17a7f;
     color: #e8dbc5;
     display: flex;
     align-items: center;
@@ -38,6 +41,7 @@
 }
 
 .navbar__menu {
+    background: #e17a7f;
     display: flex;
     align-items: center;
     list-style: none;
@@ -45,10 +49,12 @@
 }
 
 .navbar__item {
+    background: #e17a7f;
     height: 80px;
 }
 
 .navbar__links {
+    background: #e17a7f;
     color: #fff;
     display: flex;
     align-items: center;
@@ -59,6 +65,7 @@
 }
 
 .navbar__btn {
+    background: #e17a7f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +103,7 @@
         position: sticky;
     }
     .navbar__container {
+        background: #e17a7f;
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -105,6 +113,7 @@
         padding: 0;
     }
     .navbar__menu {
+        background: #e17a7f;
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -132,6 +141,7 @@
     }
 
     .navbar__toggle .bar {
+        background: #e17a7f;
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -140,6 +150,7 @@
     }
 
     .navbar__item {
+        background-color: #e17a7f;
         width: 100%;
     }
 
@@ -176,14 +187,17 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(2) {
+        background: #e17a7f;
         opacity: 0;
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
+        background: #e17a7f;
         transform: translateY(8px) rotate(45deg);
     }
 
     #mobile-menu.is-active .bar:nth-child(3) {
+        background: #e17a7f;
         transform: translateY(-8px) rotate(-45deg);
     }
 
@@ -208,7 +222,6 @@
 
     /* Main Section CSS */
     .main {
-        background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='68' height='68' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(132)'%3E%3Crect width='100%25' height='100%25' fill='rgba(232, 219, 197,1)'/%3E%3Cpath d='M0 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5zM0 69.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(62, 0, 12,1)'/%3E%3Cpath d='M20 29.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5v1a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5z' fill='rgba(225, 122, 127,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
         display: grid;
         grid:
             "header header header" auto
@@ -236,7 +249,7 @@
         justify-self: center;
         margin: 0 auto;
         height: 90vh;
-        background-color: #654236;
+        background: #654236;
         z-index: 1;
         width: 75%;
         max-width: 1300px;
@@ -246,11 +259,13 @@
         font-size: 4rem;
         color: #e8dbc5;
         padding-top: 10px;
+        background: #654236;
     }
 
     .main__content h2 {
         font-size: 4rem;
         color: #e8dbc5;
+        background: #654236;
     }
 
     .main__content p {
@@ -259,29 +274,34 @@
         margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
+        background: #654236;
     }
 
     #main__img {
         width: 50%;
         height: auto;
+        background: #654236;
     }
 
     .main__bottom {
         display: flex;
-        background-color: #e17a7f;
+        background: #e17a7f;
         width: 100%;
     }
 
     .main__img--container {
+        background: #654236;
         align-items: right;
     }
 
     .body__left {
+        background: #654236;
         float: left;
         padding: 50px;
     }
 
     .body__right {
+        background: #654236;
         padding: 50px;
     }
  

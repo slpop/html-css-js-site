@@ -38,6 +38,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    text-shadow: 2px 0px 5px rgba(101, 66, 54, 0.83);
 }
 
 .navbar__menu {
@@ -55,13 +56,14 @@
 
 .navbar__links {
     background: #e17a7f;
-    color: #fff;
+    color: #e8dbc5;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    text-shadow: 2px 0px 5px rgba(101, 66, 54, 0.83);
 }
 
 .navbar__btn {
@@ -100,7 +102,7 @@
 
 @media screen and (max-width: 1250px) {
     .navbar {
-        position: sticky;
+        position:sticky;
     }
     .navbar__container {
         background: #e17a7f;
@@ -203,13 +205,18 @@
         display: flex;
     }
 
+    .main__content {
+        margin-right: 5%;
+    }
+
     #main__img {
         display: none;
     }
 
     .main__img--container {
-        align-items: right;
+        display: none;
     }
+
 }
 
     /* Main Section CSS */
@@ -240,34 +247,44 @@
         width: 75%;
         max-width: 1300px;
         box-shadow: rgba(69, 36, 33, 0.25) 0px 54px 55px, rgba(69, 36, 33, 0.12) 0px -12px 30px, rgba(69, 36, 33, 0.12) 0px 4px 6px, rgba(69, 36, 33, 0.17) 0px 12px 13px, rgba(69, 36, 33, 0.09) 0px -3px 5px;
+        margin-bottom: 5%;
+        padding-bottom: 50%;
     }
 
     .main__content h1 {
         font-size: 4rem;
-        color: #e8dbc5;
+        color: #654236;
         padding-top: 10px;
-        background: #654236;
+        margin-top: 5%;
+        background: #e8dbc5;
+        text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+        margin-left: 2%;
     }
 
     .main__content h2 {
         font-size: 4rem;
-        color: #e8dbc5;
-        background: #654236;
+        color: #654236;
+        background: #e8dbc5;
+        text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+        margin-left: 2%;
     }
 
     .main__content p {
         font-family: 'Fira Sans', sans-serif;
-        color: #e8dbc5;
+        flex-wrap: wrap;
+        color: #654236;
         margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
-        background: #654236;
+        background: #e8dbc5;
+        text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
     }
 
     #main__img {
-        max-width: 50%;
+        margin-top: 18px;
+        max-width: 45%;
         height: auto;
-        background: #654236;
+        background: #e8dbc5;
     }
 
     .fa-brands {
@@ -289,18 +306,241 @@
     }
 
     .main__img--container {
-        background: #654236;
+        background: #e8dbc5;
         align-items: right;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: rgba(27, 14, 13, 0.2) 0px 8px 24px;
     }
 
     .body__left {
-        background: #654236;
+        background: #e8dbc5;
         float: left;
-        padding: 50px;
+        padding: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+        border-radius: 20px;
     }
 
     .body__right {
         background: #654236;
-        padding: 50px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
     }
- 
+
+    .main__aboutme {
+        background: #e17a7f;
+        float: center;
+        color: #e8dbc5;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .main__aboutme h1 {
+        background: #e17a7f;
+        color: #e8dbc5;
+    }
+
+    .main__aboutme h3 {
+       background: #e17a7f;
+        color: #e8dbc5;
+    }
+
+/* Skills Page CSS */
+/*.skills {
+    width: 100%;
+    background: #e8dbc5;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+      
+.col1Last1 { 
+    grid-column: 1 / -1; 
+    border-radius: 20px;
+    margin: 2%;
+    background: #e8dbc5;
+}
+
+.skills h1 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 2rem;
+    text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+}
+
+.skills h2 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 2rem;
+}
+
+.skills h3 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+.skills h4 {
+    display: inline;
+    float: center;
+    color: #3e000c;
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.25rem;
+    max-width: 15%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 8px 24px;
+}
+
+.skills__hard {
+    background: #e8dbc5;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.skills__soft {
+    background: #e8dbc5;
+    max-width: 70%;
+    float: left;
+    padding: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+    text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+}
+
+.fa-solid {
+    float: left;
+    font-size: 2rem;
+    color: #3e000c;
+    padding: 5px;
+    background: #e8dbc5;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.hardskills {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hardskills__left {
+    background: #e8dbc5;
+}
+
+.hardskills__right {
+    background: #e8dbc5;
+}*/
+
+.container {
+    background: #e8dbc5;
+    display: grid; 
+    grid-template-columns: 1fr 1.1fr 1fr; 
+    grid-template-rows: 0.5fr 1.5fr 0.5fr 1.5fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "hardskills1 hardskills2 hardskills3"
+      "hardskillscontent1 hardskillscontent2 hardskillscontent3"
+      "softskills softskills softskills"
+      "softskillscontent softskillscontent softskillscontent"
+      "bottom bottom bottom"; 
+  }
+
+  .hardskills1 {
+    background: #e8dbc5;
+    grid-area: hardskills1;
+  }
+
+  .hardskills2 {
+    grid-area: hardskills2;
+    background: #e8dbc5;
+  }
+
+  .hardskills3 {
+    grid-area: hardskills3;
+    background: #e8dbc5;
+  }
+
+  .hardskillscontent1 {
+    grid-area: hardskillscontent1;
+    background: #e8dbc5;
+  }
+
+  .hardskillscontent2 {
+      grid-area: hardskillscontent2;
+      background: #e8dbc5;
+  }
+
+  #img__2 {
+      align-items: center;
+    width: 50%;
+    background: #e8dbc5;
+  }
+
+  .hardskillscontent3 {
+    grid-area: hardskillscontent3;
+    background: #e8dbc5;
+  }
+
+  .skills h1 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 2rem;
+    text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+}
+
+.skills h2 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 5%;
+    font-size: 2rem;
+}
+
+.skills h3 {
+    color: #3e000c;
+    background: #e8dbc5;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+.skills h4 {
+    display: inline;
+    float: center;
+    color: #3e000c;
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.25rem;
+    max-width: 15%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 8px 24px;
+}

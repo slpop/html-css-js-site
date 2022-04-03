@@ -450,7 +450,7 @@
 }
 
 .container {
-    background: #e8dbc5;
+    background: #c4b7a9;
     display: grid; 
     grid-template-columns: 1fr 1.1fr 1fr; 
     grid-template-rows: 0.5fr 2fr 0.5fr 2fr 1fr; 
@@ -470,14 +470,14 @@
     font-size: 2rem;
     color: #3e000c;
     padding: 5px;
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-left: 2%;
     margin-top: 4%;
     margin-right: 2%;
 }
 
   .hardskills1 {
-    background: #e8dbc5;
+    background: #c4b7a9;
     grid-area: hardskills1;
     padding-top: 5%;
     padding-left: 5%;
@@ -485,26 +485,26 @@
 
   .hardskills2 {
     grid-area: hardskills2;
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   .hardskills3 {
     grid-area: hardskills3;
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   .hardskillscontent1 {
     grid-area: hardskillscontent1;
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   .prog__lang {
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-left: 5%;
   }
 
   .prog__lang2 {
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-left: 20%;
   }
 
@@ -558,23 +558,24 @@
 
   .hardskillscontent2 {
       grid-area: hardskillscontent2;
-      background: #e8dbc5;
+      background: #c4b7a9;
+      ;
   }
 
   #img__2 {
     width: 80%;
     margin-left: 10%;
     margin-top: 30px;
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   .webdev__img--container {
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   .hardskillscontent3 {
     grid-area: hardskillscontent3;
-    background: #e8dbc5;
+    background: #c4b7a9;
   }
 
   #js {
@@ -588,7 +589,7 @@
   }
 
   #html {
-    background: #e8dbc5;
+    background: #c4b7a9;
     background: #d0f0db;
     border-radius: 20px;
     padding: 7px;
@@ -600,7 +601,7 @@
   }
 
   #css {
-    background: #e8dbc5;
+    background: #c4b7a9;
     background: #d0f0db;
     border-radius: 20px;
     padding: 5px;
@@ -612,7 +613,8 @@
   }
 
   .web__dev {
-    background: #e8dbc5;
+    background: #c4b7a9;
+    max-width: 70%;
   }
 
   .fa-js, .fa-html5, .fa-css3-alt {
@@ -625,46 +627,46 @@
 
   .softskills1 {
     grid-area: softskills1;
-    background: #e8dbc5;
+    background: #c4b7a9;
     padding-top: 5%;
     padding-left: 5%;
   }
 
   .softskills2 {
     grid-area: softskills2;
-    background: #e8dbc5;
+    background: #c4b7a9;
     padding-top: 5%;
     padding-left: 5%;
   }
 
   .softskills3 {
     grid-area: softskills3;
-    background: #e8dbc5;
+    background: #c4b7a9;
     padding-top: 5%;
     padding-left: 5%;
   }
 
   .bottom1 {
     grid-area: bottom1;
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-bottom: 5%;
   }
 
   .bottom2 {
     grid-area: bottom2;
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-bottom: 5%;
   }
 
   .bottom3{
     grid-area: bottom3;
-    background: #e8dbc5;
+    background: #c4b7a9;
     margin-bottom: 5%;
   }
 
   .skills h1 {
     color: #3e000c;
-    background: #e8dbc5;
+    background: #c4b7a9;
     border-radius: 20px;
     padding: 5%;
     font-size: 2rem;
@@ -673,19 +675,20 @@
 
 .skills h2 {
     color: #3e000c;
-    background: #e8dbc5;
+    background: #c4b7a9;
     border-radius: 20px;
     padding: 5%;
     font-size: 2rem;
 }
 
 .skills h3 {
-    color: #3e000c;
-    background: #e8dbc5;
+    color: #e3dac9;
+    background: #654236;
     border-radius: 20px;
-    padding: 20px;
+    padding: 15px;
     font-size: 1.5rem;
     margin: 3%;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
 }
 
 .skills h4 {

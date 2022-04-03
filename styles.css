@@ -287,14 +287,18 @@
         background: #e8dbc5;
     }
 
-    .fa-brands {
+    .fa-linkedin, .fa-github-square {
         font-size: 2rem;
         color: #fff4e9;
         padding: 5px;
         background: #654236;
     }
 
-    .fa-brands:hover {
+    .fa-linkedin:hover {
+        background-color: #e17a7f;
+    }
+
+    .fa-github-square:hover {
         background-color: #e17a7f;
     }
 
@@ -426,17 +430,6 @@
     text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
 }
 
-.fa-solid {
-    float: left;
-    font-size: 2rem;
-    color: #3e000c;
-    padding: 5px;
-    background: #e8dbc5;
-    margin-left: 2%;
-    margin-top: 4%;
-    margin-right: 2%;
-}
-
 .hardskills {
     display: flex;
     gap: 16px;
@@ -452,23 +445,42 @@
     background: #e8dbc5;
 }*/
 
+.skills {
+    background: #e8dbc5;
+}
+
 .container {
     background: #e8dbc5;
     display: grid; 
     grid-template-columns: 1fr 1.1fr 1fr; 
-    grid-template-rows: 0.5fr 1.5fr 0.5fr 1.5fr 1fr; 
+    grid-template-rows: 0.5fr 2fr 0.5fr 2fr 1fr; 
     gap: 0px 0px; 
+    margin-bottom: 5%;
     grid-template-areas: 
       "hardskills1 hardskills2 hardskills3"
       "hardskillscontent1 hardskillscontent2 hardskillscontent3"
-      "softskills softskills softskills"
-      "softskillscontent softskillscontent softskillscontent"
-      "bottom bottom bottom"; 
+      "softskills1 softskills2 softskills3"
+      "softskillscontent1 softskillscontent2 softskillscontent3"
+      "bottom1 bottom2 bottom3"; 
+      flex-wrap: wrap;
   }
+
+  .fa-code, .fa-people-group {
+    float: left;
+    font-size: 2rem;
+    color: #3e000c;
+    padding: 5px;
+    background: #e8dbc5;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-right: 2%;
+}
 
   .hardskills1 {
     background: #e8dbc5;
     grid-area: hardskills1;
+    padding-top: 5%;
+    padding-left: 5%;
   }
 
   .hardskills2 {
@@ -486,20 +498,168 @@
     background: #e8dbc5;
   }
 
+  .prog__lang {
+    background: #e8dbc5;
+    margin-left: 5%;
+  }
+
+  .prog__lang2 {
+    background: #e8dbc5;
+    margin-left: 20%;
+  }
+
+  #py {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 2%;
+    margin-left: 50px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #cpp {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    width: 30%;
+    text-align: center;
+    margin: 2%;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #java {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    width: 40%;
+    text-align: center;
+    margin: 2%;
+    margin-left: 40px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  .fa-python, .fa-java {
+    font-size: 1.5rem;
+    color: #e17a7f;
+    padding: 5px;
+    background: #d0f0db;
+    border-radius: 15px;
+  }
+
+  .fa-hexagon {
+    font-size: 1.5rem;
+    color: #e17a7f;
+    padding: 5px;
+    background: #d0f0db;
+    border-radius: 15px;
+  }
+
   .hardskillscontent2 {
       grid-area: hardskillscontent2;
       background: #e8dbc5;
   }
 
   #img__2 {
-      align-items: center;
-    width: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    background: #e8dbc5;
+  }
+
+  .webdev__img--container {
     background: #e8dbc5;
   }
 
   .hardskillscontent3 {
     grid-area: hardskillscontent3;
     background: #e8dbc5;
+  }
+
+  #js {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 2%;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #html {
+    background: #e8dbc5;
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    width: 37%;
+    text-align: center;
+    margin: 2%;
+    margin-left: 30px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #css {
+    background: #e8dbc5;
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 5px;
+    width: 32%;
+    text-align: center;
+    margin: 2%;
+    margin-left: 110px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  .web__dev {
+    background: #e8dbc5;
+  }
+
+  .fa-js, .fa-html5, .fa-css3-alt {
+    font-size: 1.5rem;
+    color: #e17a7f;
+    padding: 5px;
+    background: #d0f0db;
+    border-radius: 15px;
+  }
+
+  .softskills1 {
+    grid-area: softskills1;
+    background: #e8dbc5;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .softskills2 {
+    grid-area: softskills2;
+    background: #e8dbc5;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .softskills3 {
+    grid-area: softskills3;
+    background: #e8dbc5;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .bottom1 {
+    grid-area: bottom1;
+    background: #e8dbc5;
+    margin-bottom: 5%;
+  }
+
+  .bottom2 {
+    grid-area: bottom2;
+    background: #e8dbc5;
+    margin-bottom: 5%;
+  }
+
+  .bottom3{
+    grid-area: bottom3;
+    background: #e8dbc5;
+    margin-bottom: 5%;
   }
 
   .skills h1 {
@@ -533,8 +693,6 @@
     float: center;
     color: #3e000c;
     background: #d0f0db;
-    border-radius: 20px;
-    padding: 20px;
     font-size: 1.25rem;
     max-width: 15%;
     text-align: center;
@@ -542,5 +700,6 @@
     margin-left: 2%;
     margin-top: 2%;
     text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
-    box-shadow: rgba(27, 14, 13, 0.2) 0px 8px 24px;
+    font-family: 'Fira Sans', sans-serif;
+    flex-wrap: wrap;
 }

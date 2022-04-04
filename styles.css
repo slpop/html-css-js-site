@@ -352,24 +352,18 @@
         color: #e8dbc5;
     }
 
-.skills {
-    background: #e8dbc5;
-}
-
 .container {
-    background: #c4b7a9;
     display: grid; 
     grid-template-columns: 1fr 1.1fr 1fr; 
-    grid-template-rows: 0.5fr 2fr 0.5fr 2fr 1fr; 
+    grid-template-rows: 0.5fr 2fr 0.5fr 2fr; 
     gap: 0px 0px; 
-    margin-bottom: 5%;
     grid-template-areas: 
       "hardskills1 hardskills2 hardskills3"
       "hardskillscontent1 hardskillscontent2 hardskillscontent3"
       "softskills1 softskills2 softskills3"
-      "softskillscontent1 softskillscontent2 softskillscontent3"
-      "bottom1 bottom2 bottom3"; 
+      "softskillscontent1 softskillscontent2 softskillscontent3";
       flex-wrap: wrap;
+      box-shadow: rgba(69, 36, 33, 0.25) 0px 54px 55px, rgba(69, 36, 33, 0.12) 0px -12px 30px, rgba(69, 36, 33, 0.12) 0px 4px 6px, rgba(69, 36, 33, 0.17) 0px 12px 13px, rgba(69, 36, 33, 0.09) 0px -3px 5px;
   }
 
   .fa-code {
@@ -480,7 +474,7 @@
     box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
   }
 
-  .fa-python, .fa-java {
+  .fa-python, .fa-java, .fa-database, .fa-linux, .fa-code-branch {
     font-size: 1.5rem;
     color: #e17a7f;
     padding: 5px;
@@ -488,18 +482,73 @@
     border-radius: 15px;
   }
 
+  #sql {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    margin-bottom: 6px;
+    width: 35%;
+    margin-left: 15%;
+    text-align: center;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #linux {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    margin-bottom: 6px;
+    width: 40%;
+    margin-left: 40%;
+    text-align: center;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #github {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 7px;
+    margin-bottom: 6px;
+    width: 45%;
+    margin-left: 15%;
+    text-align: center;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
+  #vscode {
+    background: #d0f0db;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 35%;
+    margin-left: 35%;
+    text-align: center;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+  }
+
 .other__section {
     background: #e3dac9;
     border-radius: 15px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .other {
     background: #e3dac9;
-    border-radius: 15px;
     padding: 5px;
+    border-radius: 15px;
     max-width: 35%;
     text-align: center;
+    margin-left: 30%;
+}
+
+.other2 {
+    background: #e3dac9;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
 }
 
   .hardskillscontent2 {
@@ -573,7 +622,7 @@
     background: #d0f0db;
     border-radius: 20px;
     padding: 5px;
-    width: 32%;
+    width: 40%;
     text-align: center;
     margin: 2%;
     margin-left: 70px;
@@ -634,6 +683,7 @@
   .softskillscontent1 {
     grid-area: softskillscontent1;
     background: #d0f0db;
+
   } 
   .softskillscontent2 {
     grid-area: softskillscontent2;
@@ -665,26 +715,6 @@
     font-family: 'Fira Sans', sans-serif;
     color: #fff4e9;
     text-shadow: 1px 1px 3px #654236;
-  }
-
-
-
-  .bottom1 {
-    grid-area: bottom1;
-    background: #c4b7a9;
-    margin-bottom: 5%;
-  }
-
-  .bottom2 {
-    grid-area: bottom2;
-    background: #c4b7a9;
-    margin-bottom: 5%;
-  }
-
-  .bottom3{
-    grid-area: bottom3;
-    background: #c4b7a9;
-    margin-bottom: 5%;
   }
 
 .skills h1 {

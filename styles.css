@@ -54,7 +54,7 @@
     height: 80px;
 }
 
-.navbar__links {
+.navbar__links, .fa-linkedin, .fa-github-square {
     background: #e17a7f;
     color: #e8dbc5;
     display: flex;
@@ -291,15 +291,15 @@
         font-size: 2rem;
         color: #fff4e9;
         padding: 5px;
-        background: #654236;
+        background: #e17a7f;
     }
 
     .fa-linkedin:hover {
-        background-color: #e17a7f;
+        background-color: #654236;
     }
 
     .fa-github-square:hover {
-        background-color: #e17a7f;
+        background-color: #654236;
     }
 
     .main__bottom {
@@ -372,7 +372,7 @@
     font-size: 2rem;
     color: #3e000c;
     padding: 5px;
-    background: #eeeefc;
+    background: #e8dbc5;
     margin-left: 2%;
     margin-top: 4%;
     margin-right: 2%;
@@ -407,7 +407,8 @@
 }
 
   .hardskills2 h1 {
-      background: #eeeefc;
+      background: #e8dbc5;
+      box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
   }
 
   .hardskills3 {

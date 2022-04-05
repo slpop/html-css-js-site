@@ -54,7 +54,7 @@
     height: 80px;
 }
 
-.navbar__links, .fa-linkedin, .fa-github-square {
+.navbar__links, #linkedin, #github-square {
     background: #e17a7f;
     color: #e8dbc5;
     display: flex;
@@ -287,19 +287,20 @@
         background: #e8dbc5;
     }
 
-    .fa-linkedin, .fa-github-square {
+    #linkedin, #github-square {
         font-size: 2rem;
-        color: #fff4e9;
+        color: #e8dbc5;
         padding: 5px;
         background: #e17a7f;
+        height: 80px;
     }
 
-    .fa-linkedin:hover {
-        background-color: #654236;
+    #linkedin:hover {
+        color: #654236;
     }
 
-    .fa-github-square:hover {
-        background-color: #654236;
+    #github-square:hover {
+        color: #654236;
     }
 
     .main__bottom {

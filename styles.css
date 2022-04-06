@@ -337,6 +337,7 @@
 
     .main__aboutme {
         background: #e17a7f;
+        display: flex;
         float: center;
         color: #e8dbc5;
         padding: 20px;
@@ -760,4 +761,103 @@
     text-shadow: 2px 0px 5px rgba(27, 14, 13, 0.20);
     font-family: 'Fira Sans', sans-serif;
     flex-wrap: wrap;
+}
+
+/* Projects Page */
+
+.projects__container {
+  background: #654236;
+  color: #3e000c;
+}
+
+.projects__container h1 {
+  font-size: 2rem;
+  background: #e17a7f;
+}
+
+.projects__container h3 {
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.projects__container h4 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.projects__container p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* Portfolio Website */
+
+.portfolio {
+  background: #654236;
+}
+
+#portfolio__content {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5%;
+  margin: 5%;
+}
+
+#portfolio__content h1, h3, h4, p {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#portfolio__repo {
+  display: flex;
+  background: #e8dbc5;
+}
+
+.fa-code-fork {
+  color: #3e000c;
+  padding: 5px;
+  background: #e8dbc5;
+}
+
+.fa-code-fork:hover {
+  background: #e17a7f;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Capstone */
+
+.capstone {
+  background: #654236;
+}
+
+#capstone__content {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5%;
+  margin: 5%;
+}
+
+#capstone__content h1, h3, h4, p {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Service-Learning */
+
+.servicelearning {
+  background: #654236;
+}
+
+#servicelearning__content {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5%;
+  margin: 5%;
+}
+
+#servicelearning__content h1, h3, h4, p {
+  background: #e8dbc5;
+  border-radius: 20px;
+  padding: 5px;
 }

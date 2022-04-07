@@ -217,9 +217,6 @@
         display: none;
     }
 
-    .main__aboutme {
-
-    }
 
     #hardskills-title__content {
       min-width: 250px;
@@ -272,6 +269,22 @@
 
     .other2 {
       min-width: 250px;
+    }
+
+    .hardskills__container {
+      margin-bottom: 10%;
+    }
+
+    #sql {
+      min-width: 40%;
+    }
+
+    #linux, #github, #vscode {
+      min-width: 50%;
+    }
+
+    #html, #css, #react {
+      min-width: 50%;
     }
 
 }

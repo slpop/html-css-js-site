@@ -304,8 +304,7 @@
         width: 75%;
         max-width: 1300px;
         box-shadow: rgba(69, 36, 33, 0.25) 0px 54px 55px, rgba(69, 36, 33, 0.12) 0px -12px 30px, rgba(69, 36, 33, 0.12) 0px 4px 6px, rgba(69, 36, 33, 0.17) 0px 12px 13px, rgba(69, 36, 33, 0.09) 0px -3px 5px;
-        margin-bottom: 5%;
-        padding-bottom: 50%;
+        margin-bottom: 2%;
     }
 
     .main__content h1 {

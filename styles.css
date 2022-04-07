@@ -218,7 +218,7 @@
     }
 
     .main__aboutme {
-      margin-bottom: 20%;
+
     }
 
     #hardskills-title__content {
@@ -236,7 +236,7 @@
     }
 
     .prog-lang__section {
-      margin-left: 5%;
+      min-width: 90%;
     }
 
     .teamwork__container {
@@ -255,6 +255,25 @@
       min-width: 250px;
       max-width: 250px;
     }
+
+    .web__section {
+      min-width: 250px;
+      margin-left: 20%;
+      margin-top: 2%;
+    }
+
+    .other__section {
+      min-width: 250px;
+    }
+
+    .other {
+      min-width: 100px;
+    }
+
+    .other2 {
+      min-width: 300px;
+    }
+
 }
 
     /* Main Section CSS */
@@ -341,13 +360,6 @@
         color: #654236;
     }
 
-    .main__bottom {
-        background: #654236;
-        width: 100%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
-
     .main__img--container {
         background: #e8dbc5;
         align-items: right;
@@ -370,45 +382,6 @@
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 5%;
-    }
-
-    .main__aboutme {
-        background: #e17a7f;
-        color: #e8dbc5;
-        border-radius: 15px;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .main__aboutme h1 {
-        background: #e17a7f;
-        color: #e8dbc5;
-    }
-
-    .main__aboutme h3 {
-       background: #e17a7f;
-      color: #e8dbc5;
-    }
-
-    .main__aboutme-box {
-      background: #e17a7f;
-    }
-
-    .main__aboutme-box h3 {
-      background: #e17a7f;
-      color: #e8dbc5;
-    }
-
-    .main__aboutme-box {
-      background: #e17a7f;
-      color: #e8dbc5;
-      padding: 20px;
-      border-radius: 15px;
-      margin-bottom: 5%;
-      margin-top: 1%;
     }
 
   .container {
@@ -463,6 +436,8 @@
 
   .prog-lang__section {
     background: #eeeefc;
+    margin-left: 5%;
+    min-width: 45%;
   }
 
   .prog-lang__content {
@@ -574,8 +549,13 @@
 .other__section {
     background: #e3dac9;
     border-radius: 15px;
-    margin-left: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
     margin-top: 10px;
+    min-width: 40%;
+    max-height: 300px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+    margin-bottom: 5%;
 }
 
 .other {
@@ -590,37 +570,58 @@
 .other2 {
     background: #e3dac9;
     border-radius: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 2%;
     text-align: center;
     margin-bottom: 15px;
     box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
 }
 
   .hardskillscontent2 {
-      grid-area: hardskillscontent2;
+      display: flex;
       background: #eeeefc;
   }
 
   #img__2 {
-    width: 80%;
-    margin-left: 10%;
+    width: 40%;
+    justify-content: space-between;
     margin-top: 30px;
     background: #eeeefc;
   }
 
   .webdev__img--container {
     background: #eeeefc;
+
+    margin-bottom: 15px;
   }
 
   .web__section {
     border-radius: 15px;
-    margin-left: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
     background: #a59388;
   }
 
   .web__container {
     background: #eeeefc;
+    min-width: 40%;
   }
+
+  .web__dev {
+    background: #a59388;
+    max-width: 70%;
+    padding-top: 5px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.web__dev2 {
+    background: #a59388;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 15px;
+    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
+}
 
   #js {
     background: #d0f0db;
@@ -668,22 +669,6 @@
     margin-left: 70px;
     box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
   }
-
-  .web__dev {
-    background: #a59388;
-    max-width: 70%;
-    padding-top: 5px;
-    margin-left: 40px;
-    border-radius: 15px;
-}
-
-.web__dev2 {
-    background: #a59388;
-    border-radius: 15px;
-    padding-bottom: 5px;
-    padding-left: 1px;
-    box-shadow: rgba(27, 14, 13, 0.2) 0px 4px 4px;
-}
 
   .fa-js, .fa-html5, .fa-css3-alt, .fa-react {
     font-size: 1.5rem;

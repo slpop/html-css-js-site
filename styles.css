@@ -915,6 +915,16 @@
   padding: 5px;
 }
 
+#capstoneLink {
+  color: #e17a7f;
+}
+
+#capstoneLink:hover {
+  transition: all 0.3s ease;
+  text-shadow: 2px 0px 5px rgba(172, 132, 117, 0.83);
+  border-radius: 10px;
+}
+
 /* Service-Learning */
 
 .servicelearning {

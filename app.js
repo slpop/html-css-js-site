@@ -4,6 +4,7 @@ const menuLinks = document.querySelector('.navbar__menu')
 const linkedInLink = document.querySelector('#linkedin')
 const gitHubLink = document.querySelector('#github-square')
 const portfolioLink = document.querySelector('#portfolioLink')
+const capstoneLink = document.querySelector('#capstoneLink')
 
 menu.addEventListener('click', function() {
     menu.classList.toggle('is-active')
@@ -20,4 +21,8 @@ gitHubLink.addEventListener('click', function() {
 
 portfolioLink.addEventListener('click', function() {
     window.open('https://github.com/slpop/portfolio-website', '_blank');
+})
+
+capstoneLink.addEventListener('click', function() {
+    window.open('http://liberty-studyspaces.herokuapp.com/', '_blank');
 })
